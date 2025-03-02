@@ -1,0 +1,12 @@
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div *{
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    margin-left: 0.75rem;
+    margin-right: 0.25rem;
+}
