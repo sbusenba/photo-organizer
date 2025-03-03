@@ -1,12 +1,17 @@
-div{
+.status {
+    flex: 1 0 auto;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin: 1rem 0.75rem 0.25rem;
+    padding:0.75rem;
 }
-div *{
-    margin-top: 0.75rem;
-    margin-bottom: 0.25rem;
-    margin-left: 0.75rem;
-    margin-right: 0.25rem;
+.status p {
+    margin: 0.25rem;
+}
+
+.status .scan {
+    font-size: x-large;
+    margin:0.25rem;
 }

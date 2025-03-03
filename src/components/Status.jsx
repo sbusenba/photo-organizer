@@ -2,11 +2,9 @@ import "./Status.css";
 
 const Status = ({ lastUpdated }) => {
     return (
-        <div>
-            <button onClick={()=>{}}><h2>Scan</h2>
-            <p>Last Updated: {lastUpdated}</p>
+            <button className="status" onClick={()=>{}}><p className="scan">Scan</p>
+            <div><p>Last Updated: </p><p>{lastUpdated}</p></div>
             </button>
-        </div>
     );
 };
 

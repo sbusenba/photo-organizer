@@ -4,12 +4,12 @@ function Nav(){
 
 
     return(
-        <nav>
+        <div className="nav">
             <ul>
                 <li><h1>Photo Organizer</h1></li>
                 <li><Status lastUpdated="2021-09-01"/></li>
             </ul>
-        </nav>
+        </div>
     )
 }
 export default Nav;
