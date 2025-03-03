@@ -13,5 +13,6 @@
 
 .status .scan {
     font-size: x-large;
+    font-weight: bolder;
     margin:0.25rem;
 }
